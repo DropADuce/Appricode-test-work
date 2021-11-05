@@ -1,0 +1,20 @@
+@import "../../styles/constants";
+
+.task {
+  display: flex;
+  padding: $default-space;
+  margin: $default-space;
+  background-color: white;
+  border-radius: $default-radius;
+  align-items: center;
+  justify-content: flex-start;
+  &__iconContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (max-width: $default-width) {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

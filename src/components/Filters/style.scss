@@ -1,0 +1,9 @@
+@import "../../styles/constants";
+
+.filters {
+  margin: $default-space;
+  width: $default-width;
+  @media (max-width: $default-width) {
+    width: $small-width;
+  }
+}

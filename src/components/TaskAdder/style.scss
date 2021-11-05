@@ -1,0 +1,22 @@
+@import "../../styles/constants";
+
+.taskAdder {
+  margin: $default-space;
+  padding: $default-space;
+  background-color: rgba(0,0,0, .1);
+  border-radius: $default-radius;
+  font-size: 1.1rem;
+  font-weight: lighter;
+  text-align: center;
+  &:hover {
+    color: lightgray;
+    cursor: pointer;
+    background-color: rgba(0,0,0,.2);
+  }
+  &__buttons {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: $default-space;
+    margin-right: $default-space;
+  }
+}
